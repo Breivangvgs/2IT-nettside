@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="Kontakt.CSS">
+</head>
+<body>
+
+    <div class="socials">
+        <p>Ring kontaktperson: +47 123 12 123</p>
+        <img src="./img/twitter.png" alt="Twitter" style="width: 22px;">
+        <img src="./img/tiktok.png" alt="Tiktok" style="width: 22px;">
+        <img src="./img/facebook.png" alt="Facbook" style="width: 22px;">
+        <img src="./img/instagram.png" alt="Instagram" style="width: 22px;">
+    </div>
+    <div class="navi">
+        <div class="links">
+            <a class="active" href="./Kontakt.html">Kontakt</a>
+            <a href="./">Eventer</a>
+            <a href="./">Database</a>
+            <a href="./">Hjem</a>
+        </div>
+        <div class="navleft"> 
+            <img src="./img/logo.png" width="45px">
+            <p>2IT Breivang VGS</p>
+        </div>
+    </div>
+    
+    <div class="kontakt">
+        <img src="./img/background-form.png" alt="">
+            <div class="container"> <!--formsubmit-->
+                <form target="_blank" action="https://formsubmit.co/random@gmail.com" method="POST"> <!--gmail to send form to-->
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <h4>Navn</h4>
+                        <input type="text" name="navn" class="form-control"  required> <!--makes it so you need to have your name here-->
+                      </div>
+                      <div class="col">
+                        <h4>E-post</h4>
+                        <input type="email" name="e-post" class="form-control"  required> <!--makes it so you need to have a email here-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <h4>Hva gjelder det?</h4>
+                    <textarea  class="form-control" name="message" rows="6" required></textarea> <!-- your message-->
+                  </div>
+                  <button type="submit" class="submitbut">Send</button> <!--submit button-->
+                </form>
+            </div>
+    </div>
+
+    
+</body>
+</html>
